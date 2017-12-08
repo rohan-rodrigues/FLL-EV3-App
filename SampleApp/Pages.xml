@@ -1,0 +1,86 @@
+<PagesViewController backgroundColor="#ddd">
+    <UIScrollView
+        contentInset.bottom="safeAreaInsets.bottom"
+        contentInset.top="max(safeAreaInsets.top + 10, 20)"
+        contentInsetAdjustmentBehavior="never"
+        contentSize.height="100%"
+        contentSize.width="700%"
+        isPagingEnabled="true"
+        outlet="scrollView"
+        showsHorizontalScrollIndicator="false">
+
+
+        <UIView
+            backgroundColor="#f33"
+            template="PageTemplate.xml"
+            imageName="BOBB3E"
+            text="BOBB3E, a remote controlled Bobcat®, can be steered and lift objects, all through the touch of buttons on the IR Beacon."
+        />
+
+
+        <UIView
+            backgroundColor="#3a3"
+            left="previous.right + 40"
+            template="PageTemplate.xml"
+            imageName="DINOR3X"
+            text="DINOR3X is a robotic triceratops dinosaur capable of walking and turning on its own four legs."
+        />
+
+
+     <!--   <UIView
+            backgroundColor="#09f"
+            left="previous.right + 40"
+            template="PageTemplate.xml"
+            imageName="EGUITAR"
+            text="Designed by Daniele Benedettelli. A musical instrument – made out of LEGO Bricks!  You can play it almost as a real guitar, by stroking a single string, sliding your finger on the fretless neck, and bending notes using the tremolo bar!"
+        /> -->
+        
+        <UIView
+        backgroundColor="#f33"
+        left="previous.right + 40"
+        template="PageTemplate.xml"
+        imageName="KRAZ3"
+        text="KRAZ3 is a fun companion robot that has a crazy attitude; it reacts to it's little IR Becon bug friend. You can control KRAZ3 either through the custom program with the IR Beacon, or set it to follow his friend the bug around your room."
+        />
+        
+        <UIView
+        backgroundColor="#3a3"
+        left="previous.right + 40"
+        template="PageTemplate.xml"
+        imageName="MR.B3AM"
+        text="MR. B3AM is able to measure the length of straight LEGO® Technic Beams. When started, the MR. B3AM waits for a beam to be inserted; it will then detect the color and size of beam."
+        />
+        
+        <UIView
+        backgroundColor="#09f"
+        left="previous.right + 40"
+        template="PageTemplate.xml"
+        imageName="WACK3M"
+        text="WACK3M is an arcade style game that tests your reaction speed, by popping up disks that you then have to whack back down. Challenge your friends - the fastest wins!"
+        />
+        
+        <UIView
+        backgroundColor="#f33"
+        left="previous.right + 40"
+        template="PageTemplate.xml"
+        imageName="PRINT3R"
+        text="BANNER PRINT3R draws lines on standard calculator or cash register paper, using a standard Sharpie marker. Use the provided program that draws out LEGO EV3 or create your own program to draw whatever you imagine!"
+        />
+        
+        <UIView
+        backgroundColor="#3a3"
+        left="previous.right + 40"
+        template="PageTemplate.xml"
+        imageName="EV3MEG"
+        text="EV3MEG is a friendly helper Robot that runs in a big packing line factory. EV3MEG can run on its own following lines using the EV3 Light Sensor whilst also using the IR Sensor to detect and react to objects blocking its path."
+        />
+        
+    </UIScrollView>
+    <UIPageControl
+        bottom="100% - parent.safeAreaInsets.bottom - 40"
+        isUserInteractionEnabled="false"
+        left="50% - (width / 2)"
+        numberOfPages="7"
+        outlet="pageControl"
+    />
+</PagesViewController>

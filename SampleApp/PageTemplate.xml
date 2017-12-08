@@ -1,0 +1,53 @@
+<UIView
+    height="100% - 20"
+    layer.cornerRadius="10"
+    left="20"
+    width="100% - 40">
+    
+    <param name="imageName" type="String"/>
+    <param name="text" type="String"/>
+    
+    <!--<UILabel
+    font="30 bold"
+    height="100%"
+    text="{text}"
+    textAlignment="center"
+    textColor="white"
+    width="100%"
+    /> -->
+    
+    <UILabel
+    font="30 bold"
+    top="10"
+    text="{imageName}"
+    textAlignment="center"
+    width="100%"
+    />
+    
+    
+    
+    <UIView
+        width="100%"
+        left="65% - width/2"
+        top="50% - height/3">
+        
+        <UIImageView
+        image="{imageName}"
+        width="height"
+    />
+        
+    <UILabel
+        font="body"
+        numberOfLines="0"
+        text="{text}"
+        top="50%"
+        width="80%"
+        left="5% - width/10"
+    />
+        
+    </UIView>
+    
+    
+    
+    
+</UIView>
